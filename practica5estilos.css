@@ -1,0 +1,44 @@
+
+@font-face{
+	font-family: "Hurricane-Regular";
+	src: url("Hurricane-Regular.ttf") format("truetype");
+
+}
+@font-face{
+	font-family: "Roboto-Regular";
+	src: url("Roboto-Regular.ttf") format("truetype");
+
+}
+@font-face{
+	font-family: "Roboto-Black";
+	src: url("Roboto-Black.ttf") format("truetype");
+
+}
+@font-face{
+	font-family: "Roboto-Italic";
+	src: url("Roboto-Italic.ttf") format("truetype");
+}
+h1{
+	text-align: center;
+	font-family: Roboto-Black;
+}
+h2{
+	text-align: center;
+	font-family: "Hurricane-Regular";
+}
+
+li{
+	font-family: Roboto-Regular;
+}
+
+p{
+	text-align: center;
+	font-family: Roboto-Italic;
+}
+
+
+a:link{color: #33BBB2; text-decoration: none;}
+a:visited{color: #33BBB2; text-decoration: none;}
+a:focus{ background-color: white ; color: #405BAF; text-decoration: underline;}
+a:hover{background-color: #405BAF; color: white; font-size: 1vw; text-decoration: underline;}
+a:active{color: #405BAF; background-color: white; text-decoration: underline;}
